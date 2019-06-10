@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   pluginlib
   rosconsole_bridge
   tf
+  eigen_conversions
 )
 
 find_package(Boost REQUIRED)
@@ -34,6 +35,7 @@ catkin_package(
     moveit_core
     rosconsole_bridge
     tf
+    eigen_conversions
   DEPENDS
     Boost
     EIGEN3
